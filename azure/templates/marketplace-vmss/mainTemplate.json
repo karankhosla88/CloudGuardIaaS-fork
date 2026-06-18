@@ -223,6 +223,20 @@
       },
       "defaultValue": ""
     },
+    "customElbName": {
+    "defaultValue": "frontend-lb",
+    "type": "String",
+    "metadata": {
+    "description": "Custom external load balancer name. Default is frontend-lb."
+  }
+},
+    "customIlbName": {
+    "defaultValue": "backend-lb",
+    "type": "String",
+    "metadata": {
+    "description": "Custom internal load balancer name. Default is backend-lb."
+  }
+},
     "lbsTargetRGName": {
       "type": "string",
       "metadata": {
