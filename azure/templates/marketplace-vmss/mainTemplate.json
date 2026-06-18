@@ -2184,6 +2184,12 @@
           "ilbTargetBEAddressPoolName": {
             "value": "[parameters('ilbTargetBEAddressPoolName')]"
           },
+          "customElbName": {
+            "value": "[parameters('customElbName')]"
+          },
+          "customIlbName": {
+            "value": "[parameters('customIlbName')]"
+          },
           "upgrading": {
             "value": "[variables('upgradingForLB')]"
           },
