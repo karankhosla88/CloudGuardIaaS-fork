@@ -506,9 +506,9 @@
     "_artifactsLocation": {
       "type": "string",
       "metadata": {
-        "description": "Use the following URI when deploying a custom template: "https://raw.githubusercontent.com/karankhosla88/CloudGuardIaaS-fork/parameterized-lb-names/azure/templates/"
+        "description": "Use the following URI when deploying a custom template: https://raw.githubusercontent.com/karankhosla88/CloudGuardIaaS-fork/parameterized-lb-names/azure/templates/"
       },
-      "defaultValue": ""https://raw.githubusercontent.com/karankhosla88/CloudGuardIaaS-fork/parameterized-lb-names/azure/templates/"
+      "defaultValue": "https://raw.githubusercontent.com/karankhosla88/CloudGuardIaaS-fork/parameterized-lb-names/azure/templates/"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
